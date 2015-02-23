@@ -11,5 +11,7 @@
 "use strict";
 
 decaf.extend(exports, {
-    Mail: require('lib/Mail').Mail
+    Mail     : require('lib/Mail').Mail,
+    Mandrill : require('lib/Mandrill').Mandrill,
+    EZMail   : require('lib/EZMail').EZMail
 });
